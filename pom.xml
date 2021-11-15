@@ -46,4 +46,13 @@
     <module>allloadbalancer</module>
     <module>all</module>
   </modules>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>edu.illinois</groupId>
+        <artifactId>nondex-maven-plugin</artifactId>
+        <version>1.1.2</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
